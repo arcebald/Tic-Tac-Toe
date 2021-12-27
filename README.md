@@ -22,7 +22,7 @@ This is a game of tic tac toe, with score counters, player's next move visualiza
 
 ## Approach and solving for the winner:
 The main approach to the game is creating div tags in index.html page and playing in java script with the properties of the class atribute 
-to capture the clicked box. Iterating through the grid cells I captured the cell and added the class property either X or O to the div tag in HTML. I checked the all winner conditions with if-else statements. 
+to capture the clicked box. Iterating through the grid cells I captured the cell and added the class property either X or O to the div tag in HTML. I checked the all winner conditions(8 total: 3 rows, 3 columns and 2 diagonals) with if-else statements. If playerX or playersO it will triger the css styling to change the color of the strike.
  
 ## Main features:
 - Text changer.
