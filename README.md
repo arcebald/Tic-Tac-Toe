@@ -40,5 +40,6 @@ to capture the clicked box. Iterating through the grid cells I captured the cell
 - As a user, I should not be able to continue playing once I win, lose, or tie
 - As a user, I should be able to play the game again without refreshing the page
 
-
+## What's left?
+- Integrating a smart AI for the second player...
 
