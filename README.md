@@ -41,5 +41,6 @@ to capture the clicked box. Iterating through the grid cells I captured the cell
 - As a user, I should be able to play the game again without refreshing the page
 
 ## What's left?
+- Make the game responsive
 - Integrating a smart AI for the second player...
 
