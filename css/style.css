@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    size: 30px;
+    text-align: center;
+    color: blue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: cornsilk;
+}
+.container{
+    background: #B1B0FA;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+}
+.name{
+    text-align: center;
+}
+.status, .reset {
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+    justify-content: center;
+    height: 30px;
+    
+}
+.status-players {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    height: 30px;
+}
+.status span{
+    color: honeydew;
+}
+.reset{
+    cursor: pointer;
+}
+.reset:hover{
+    color: floralwhite;
+}
+.gameMatrix{
+    background: gray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 7px;
+    margin-top: 40px;
+    position: relative;
+}
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 120px;
+    width: 120px;
+    background: #B1B0FA;
+}
+.x,
+.o {
+    cursor: default;
+}
+.x::before{
+    content: '✕';
+    font-size: 75px;
+    font-weight: bold;
+}
+.o::before{
+    content: '◯';
+    color: honeydew;
+    font-size: 75px;
+    font-weight: bold;
+}
+.strike::before{
+    color: green;
+}
