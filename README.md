@@ -4,7 +4,7 @@ No need.
 
 ## Links:
 - Wireframe:
-![](images/Tic Tac Toe Frame.png)
+![](images/frame.png)
 
 
 - [Game link](https://arcebald.github.io/Tic-Tac-Toe/index.html?).
