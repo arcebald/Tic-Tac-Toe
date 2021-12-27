@@ -20,12 +20,10 @@ This is a game of tic tac toe, with score counters, player's next move visualiza
 - I used some wireframe image and click sounds.
 
 
-## Approach:
-The main approach to the game is using 2d arrays to make information gathering a bit easy.
-And for checking the win conditions i used loops and ternary operators to check each win condition.
-### How i solved for the winner:
-i saved the entire state of the game in a 2d array, then used loops to check each row if it has the same value then alerting an adding scores.
-
+## Approach and solving for the winner:
+The main approach to the game is creating div tags in index.html page and playing in java script with the properties of the class atribute 
+to capture the clicked box. Iterating through the grid cells I captured the cell and added the class property either X or O to the div tag in HTML. I checked the all winner conditions with if-else statements. 
+ 
 ## Main features:
 - Text changer.
 - Player's score
@@ -43,5 +41,4 @@ i saved the entire state of the game in a 2d array, then used loops to check eac
 - As a user, I should be able to play the game again without refreshing the page
 
 
-**WireFrame**
 
