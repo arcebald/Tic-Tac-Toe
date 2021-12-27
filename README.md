@@ -1,4 +1,4 @@
-Project #1 Tic Tac Toe
+# Project #1: Tic Tac Toe Game
 
 ### User Stories
 
@@ -11,5 +11,5 @@ Project #1 Tic Tac Toe
 - As a user, I should be able to play the game again without refreshing the page
 
 
-Wire Frame
+**WireFrame**
 
