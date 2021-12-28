@@ -98,7 +98,7 @@ const checkGameStatus = () => {
         seventhCell && eighthCell && ninethCell) {
 
         gameActive = false;
-        elementStatus.innerHTML = "Draw!"
+        elementStatus.innerHTML = `<em> Draw! </em>`
     } else {
         playerXmove = !playerXmove;
         if (playerXmove) {

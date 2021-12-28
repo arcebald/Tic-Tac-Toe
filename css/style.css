@@ -41,6 +41,9 @@ body{
 .status span{
     color: honeydew;
 }
+.status em{
+    color: brown;
+}
 .reset{
     cursor: pointer;
 }
