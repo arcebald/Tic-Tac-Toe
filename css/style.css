@@ -71,15 +71,40 @@ body{
 }
 .x::before{
     content: '✕';
-    font-size: 75px;
+    font-size: 85px;
     font-weight: bold;
 }
 .o::before{
     content: '◯';
     color: honeydew;
-    font-size: 75px;
+    font-size: 65px;
     font-weight: bold;
 }
 .strike::before{
     color: green;
+}
+@media only screen and (max-width: 1080px){
+    .gameMatrix{
+        margin-top: 20px;
+        grid-gap: 7px;
+    }
+    .cell{
+        height: 80px;
+        width: 80px;
+    }
+    .x::before{
+        font-size: 65px;
+    }
+    .o::before{
+        font-size: 45px;
+    }
+    .status-players {
+        font-size: 15px;
+        height: 20px;
+    }
+    .status, .reset {
+        font-size: 15px;
+        height: 20px;
+        
+    }
 }
