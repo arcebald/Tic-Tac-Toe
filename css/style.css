@@ -83,7 +83,7 @@ body{
 .strike::before{
     color: green;
 }
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 428px){
     .gameMatrix{
         margin-top: 20px;
         grid-gap: 7px;
