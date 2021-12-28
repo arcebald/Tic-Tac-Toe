@@ -2,12 +2,18 @@
 ## Installation: 
 No need.
 
+# Compatible Devices:
+- Desktops/Laptops
+- Tablets
+- iPhone 12 Pro Max/13 Pro Max
+- Samsung S8/S9/S10/S21//Note20
+
 ## Links:
 - Wireframe:
 ![](images/frame.png)
 
 
-- [Game link](https://arcebald.github.io/Tic-Tac-Toe/index.html?).
+- [Game link](https://arcebald.github.io/Tic-Tac-Toe/index.html?)
 
 
 ## Preview
@@ -41,6 +47,5 @@ to capture the clicked box. Iterating through the grid cells I captured the cell
 - As a user, I should be able to play the game again without refreshing the page
 
 ## What's left?
-- Make the game responsive
 - Integrating a smart AI for the second player...
 
