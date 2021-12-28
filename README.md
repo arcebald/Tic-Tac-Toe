@@ -2,7 +2,7 @@
 ## Installation: 
 No need.
 
-# Compatible Devices:
+## Compatible Devices:
 - Desktops/Laptops
 - Tablets
 - iPhone 12 Pro Max/13 Pro Max
