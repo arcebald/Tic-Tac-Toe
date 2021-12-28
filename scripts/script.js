@@ -29,7 +29,7 @@ const winner = (className) => {
     else {
         playerOScore++;
         elementStatus.innerHTML = `<span>Player ◯ wins!</span>`;
-        playerOButton.innerHTML = `playerO score: ${playerOScore}`;
+        playerOButton.innerHTML = `PlayerO score: ${playerOScore}`;
     }
 }
 //grabing the classList for each cell and checkng for a winner
